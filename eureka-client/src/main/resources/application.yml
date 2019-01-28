@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka
+#设置应用名,可直接根据应用名调用
+spring:
+  application:
+    name: client-producter
+
+server:
+  port: 8082
