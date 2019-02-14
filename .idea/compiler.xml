@@ -24,12 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="eureka-client" />
         <module name="eureka-client2" />
+        <module name="eureka-client3" />
+        <module name="eureka-ribbon-client" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.6" />
       <module name="eureka-client2" target="1.6" />
+      <module name="eureka-client3" target="1.6" />
+      <module name="eureka-ribbon-client" target="1.6" />
       <module name="eureka-server" target="1.6" />
       <module name="eurekaUnit" target="1.6" />
     </bytecodeTargetLevel>

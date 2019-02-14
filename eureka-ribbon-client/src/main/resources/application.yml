@@ -4,7 +4,7 @@ eureka:
       defaultZone: http://localhost:8081/eureka
 
 server:
-  port: 8083
+  port: 8085
 spring:
   application:
-    name: eureka-client
+    name: eureka-ribbon-client
